@@ -3,6 +3,9 @@ Parses your Amazon Order history.
 
 Run the python file with your Amazon email and password as the first and second parameters, respectively.
 
+This uses the Selenium package and requires firefox and [geckodriver](https://github.com/mozilla/geckodriver/releases)
+
+
 ```sh
 > python amazon_order_history.py name@email.com Password1
 ```
